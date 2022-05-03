@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	min-height: 200vh;
+}
+
+.navbar.is-danger {
+	background-color: #db1e35 !important;
+}
+
+.is-danger {
+	color: #db1e35 !important;
+}
+
+.fa-facebook {
+	position: fixed;
+	bottom: 28px;
+	right: 20px;
+	color: white;
+	cursor: pointer;
+	z-index: 9999;
+	transition: all 0.5s;
+}
+
+.fa-facebook:hover {
+	color: lightgrey !important;
+}
+
+.navbar-item img {
+	max-height: 2.75rem !important;
+}
+
+.navbar-brand .title {
+	margin-bottom: 0 !important;
+}
+
+.hero-body {
+	background-image: url(/img/bg/3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.section h1 {
+	margin-bottom: 60px !important;
+	text-underline-offset: 1rem;
+}
+
+.column {
+	padding: 25px;
+}
